@@ -82,7 +82,7 @@
     }
   },
   "dependencies": {
-    "@csg-org/tableschema": "^1.9.2",
+    "@csg-org/tableschema": "^1.9.3",
     "archiver": "^2.1.1",
     "autosize": "^4.0.2",
     "axios": "^0.19.0",
