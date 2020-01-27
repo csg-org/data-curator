@@ -5,7 +5,7 @@ import _ from 'lodash'
 import { dataResourceToFormat } from '../renderer/file-formats'
 import { dialog } from 'electron'
 import { Package } from 'datapackage'
-import { Schema } from 'tableschema'
+import { Schema } from '@csg-org/tableschema'
 
 export async function loadPackageFromJson (json) {
   const mainWindow = focusMainWindow()

@@ -1,4 +1,4 @@
-import { Table, Schema } from 'tableschema'
+import { Table, Schema } from '@csg-org/tableschema'
 import { HotRegister } from '@/hot.js'
 import store from '@/store/modules/hots.js'
 import tabStore from '@/store/modules/tabs.js'
