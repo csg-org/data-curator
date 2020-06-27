@@ -121,7 +121,7 @@ We develop against the 'develop' branch. The 'master' branch contains tagged rel
 ### Requirements
 
 `node`<br>
-`yarn`<br>
+`yarn` or `npm`<br>
 `electron`
 
 You can use [yarn](https://yarnpkg.com/en/) to install all relevant packages and development dependencies. ([Install yarn](https://yarnpkg.com/en/docs/install))
@@ -133,8 +133,10 @@ We're keeping our dependencies up to date with [Dependabot](https://dependabot.c
 To open the app on your local machine and run Data Curator in development mode:
 
 - change to your local Data Curator directory
-- `yarn` _(pulls down all dependencies)_
-- `yarn run dev`
+- `npm login --registry=https://npm.pkg.github.com --scope=@csg-org` _(set up npm to pull certain packages from the GitHub registry)_
+- `yarn` or `npm install` _(pulls down all dependencies)_
+- `yarn build` or `npm build`
+- `yarn run dev` or `npm run dev`
 
 Data Curator will launch with an extra Developer menu.
 
